@@ -9,4 +9,4 @@ python app.py
 ```
 
 ### Working App 
-![Landing page](./Media/Img1)
+![Landing page](Media/Img1.png)
