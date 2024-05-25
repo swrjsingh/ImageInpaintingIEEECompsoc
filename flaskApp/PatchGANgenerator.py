@@ -31,7 +31,8 @@ transforms_ = v2.Compose([
 # Initialize generator
 generator = PatchGan(channels=channels)
 #Load Pretrained Weights
-generator.load_state_dict(torch.load('flaskApp/Patchgenerator.pth'))
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+generator.load_state_dict(torch.load('flaskApp/Patchgenerator.pth', map_location=device))
 
 if cuda:
     generator.cuda()
