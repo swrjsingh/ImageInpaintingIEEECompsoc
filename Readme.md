@@ -1,4 +1,8 @@
 # Image Inpainting using Generative Adverserial Networks
+
+
+![Image Inpainting using GANs](Media/BatchOfOutputs.jpg)
+
 ### Abstract
 This project was done as a semester-long project under IEEE CompSoc Envision 2024
 
